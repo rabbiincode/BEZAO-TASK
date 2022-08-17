@@ -1,0 +1,39 @@
+.home {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+
+  img{
+    object-fit: contain
+   }
+  .deli{
+    padding: 1rem 2rem;
+
+    h1{
+      font-size: 2.7rem;
+      font-weight: 600;
+      width: 55%;
+    }
+
+    h3{
+      opacity: 0.6;
+      width: 45%;
+    }
+
+    h2{
+      font-size: 1.2rem;
+    }
+
+    .text{
+      font-size: 1.3rem;
+    }
+
+    .search{
+      padding: 1.5rem 0;
+      h2{
+        color: white;
+        padding-bottom: 0.5rem;
+      }
+    }
+  }
+}

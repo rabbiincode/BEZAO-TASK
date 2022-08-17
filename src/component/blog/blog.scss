@@ -1,0 +1,22 @@
+.blog{
+  display: flex;
+  justify-content: center;
+  img{
+    width: 250px;
+    height: 250px;
+  }
+  .contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+
+    .card{
+        // background: red;
+        margin: 2rem;
+        max-width: 18rem;
+        min-height: 20rem;
+    }
+  }
+}
